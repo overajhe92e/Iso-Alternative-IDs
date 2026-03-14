@@ -1,0 +1,24 @@
+[manifest]
+version = "0.0.1"
+dump_lua = true
+priority = 1000
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+pattern = "DARK_EDITION = {0,0,0,1},"
+position = "after"
+payload = """
+PITCHBLACK = HEX("000000"),
+"""
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/misc_functions.lua"
+pattern = "dark_edition = G.C.DARK_EDITION,"
+position = "after"
+payload = """
+isoid_pitchblack = G.C.PITCHBLACK,
+"""
+match_indent = true

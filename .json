@@ -1,0 +1,18 @@
+{
+	"id": "altid",
+	"name": "Alternative IDs",
+	"display_name": "Alternative IDs",
+	"author": [
+        "Isotypical"
+    ],
+	"description": "",
+	"prefix": "isoid",
+	"main_file": "e.lua",
+	"priority": 1,
+	"badge_colour": "0000ff",
+	"badge_text_colour": "000000",
+	"version": "0.0.0",
+	"dependencies": [
+        "Steamodded (>=1.0.0~BETA-0711a)"
+    ]
+}
