@@ -2,8 +2,8 @@ SMODS.DynaTextEffect {
     key = "tremble",
     func = function(dynatext, index, letter)
         letter.offset = { 
-            x = math.floor(math.cos(15*G.TIMERS.REAL+index)*2),
-            y = math.floor(math.sin(105*(G.TIMERS.REAL+index))*7)
+            x = math.ceil(math.cos(25*G.TIMERS.REAL*index)*1.5),
+            y = math.floor(math.sin(85*(G.TIMERS.REAL*index))*3)
         }
     end,
 }

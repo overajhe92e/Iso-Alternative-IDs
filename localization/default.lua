@@ -56,7 +56,7 @@ return {
             j_isoid_boohoo_my_wife_dead_oxidyze = {
                 name = { "{C:isoid_pitchblack}The Black Silence{}", "{s:0.7,C:isoid_pitchblack}Oxidyze{}" },
                 text = {
-                    "{C:iso_pitchblack,E:isoid_tremble}...{}"
+                    "{C:iso_pitchblack,E:isoid_tremble}You must suffer, like I have.{}"
                 }
             },
             j_isoid_nitra = {
@@ -65,6 +65,35 @@ return {
                     "{E:isoid_tremble,C:red}I don't remember her face...{}",
                     "- Oxidyze"
                 }
+            },
+            j_isoid_iso_myhaircoupons = {
+                name = {
+                    "The Big Sister of The Middle",
+                    "{s:0.7}Isotypical{}"
+                },
+                text = {
+                    "{E:isoid_tremble,C:red}MY HAIR COUPOOOOOOOOOOOOOOOOOOOOOOOO{}",
+                    "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO{}",
+                    "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO{}",
+                    "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO{}",
+                    "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO{}",
+                    "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONS!!!{}",
+                }
+            },
+            j_ocstobal_myself = {
+                name = { "{C:ocstobal_iso_grad,E:1}Isotypical{}", "{s:0.65,C:ocstobal_iso_grad,E:1,u:ocstobal_iso_grad}The Queen of the Junkyard{}", "{C:inactive,s:0.6}Base ID{}" }
+            },
+            j_ocstobal_Oxy = {
+                name = { "{C:ocstobal_oxi_gradient}Oxidyze{}", "{C:money,s:0.7}The Perfect Base Identity{}"}
+            },
+            j_ocstobal_astro = {
+                name = { "Astro", "{C:ocstobal_decietful,s:0.6}Silly, Robotic Cat{}", "{C:inactive,s:0.6}Base ID{}"}
+            },
+            j_ocstobal_sparky = {
+                name = { "Sparky Elle", "{s:0.6}Timid, yet Charming{}", "{C:inactive,s:0.6}Base ID{}"}
+            },
+            j_ocstobal_seraph = {
+                name = { "{C:iso_dark_purple}Seraph Voidgloom{}", "{C:red,s:0.7}Not my name!{}", "{C:inactive,s:0.6}Base ID{}"}
             }
         },
         Other={},

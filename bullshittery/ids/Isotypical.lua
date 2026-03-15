@@ -15,3 +15,9 @@ SMODS.Joker {
     cost = 1,
     rarity = "isoid_aleph"
 }
+
+SMODS.Joker {
+    key = "iso_myhaircoupons",
+    cost = 100,
+    rarity = "isoid_aleph"
+}
