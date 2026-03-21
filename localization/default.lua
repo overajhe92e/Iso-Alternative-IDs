@@ -80,6 +80,13 @@ return {
                     "{E:isoid_tremble,C:red}OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONS!!!{}",
                 }
             },
+            j_isoid_iso_starspace = {
+                name = {"Isotypical", "{C:dark_edition,s:0.7,E:1}Starspace Edition}|"},
+                text = {
+                    "Sets {C:attention}Hand Score{} calculation to",
+                    "{X:blue,C:white}Chip{} {C:dark_edition}^{} {X:red,C:white}log(Mult)^0.75{}"
+                }
+            },
             j_ocstobal_myself = {
                 name = { "{C:ocstobal_iso_grad,E:1}Isotypical{}", "{s:0.65,C:ocstobal_iso_grad,E:1,u:ocstobal_iso_grad}The Queen of the Junkyard{}", "{C:inactive,s:0.6}Base ID{}" }
             },

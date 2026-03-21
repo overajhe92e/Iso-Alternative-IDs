@@ -21,3 +21,9 @@ SMODS.Joker {
     cost = 100,
     rarity = "isoid_aleph"
 }
+
+SMODS.Joker {
+    key = "iso_starspace",
+    cost = 100,
+    rarity = "isoid_aleph"
+}
