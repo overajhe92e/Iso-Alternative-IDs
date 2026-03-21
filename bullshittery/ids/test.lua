@@ -1,0 +1,5 @@
+-- SMODS.Joker {
+--     key = 'test',
+--     rarity = 1,
+--     cost = 1
+-- }

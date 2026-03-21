@@ -2,15 +2,29 @@ SMODS.DynaTextEffect {
     key = "tremble",
     func = function(dynatext, index, letter)
         letter.offset = { 
-            x = math.ceil(math.cos(25*G.TIMERS.REAL*index)*1.5),
-            y = math.floor(math.sin(85*(G.TIMERS.REAL*index))*3)
+            x = math.ceil(math.cos(10*G.TIMERS.REAL*index)*1.5),
+            y = math.floor(math.sin(65*(G.TIMERS.REAL*index))*3)
         }
     end,
 }
 
 SMODS.DynaTextEffect {
-    key = "blacksilence",
+    key = "waaavy",
     func = function(dynatext, index, letter)
+      letter.offset = {
+        x = math.tan(5*G.TIMERS.REAL+index)*3,
+        y = math.tan(5*G.TIMERS.REAL+index)*20
+      }
+    end
+}
+
+SMODS.DynaTextEffect {
+    key = "waveYaxisonly",
+    func = function(dynatext, index, letter)
+      letter.offset = {
+        x = 0,
+        y = math.sin(5*G.TIMERS.REAL+index)*8
+      }
     end
 }
 

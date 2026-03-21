@@ -21,3 +21,12 @@ SMODS.Joker {
     pos = {x=0,y=0},
     soul_pos = {x=0,y=1}
 }
+
+SMODS.Joker {
+    key = "oxidyze_wildhunt",
+    cost = 50,
+    rarity = "isoid_aleph",
+    -- atlas = "oxidyze",
+    -- pos = {x=0,y=0},
+    -- soul_pos = {x=0,y=1}
+}
